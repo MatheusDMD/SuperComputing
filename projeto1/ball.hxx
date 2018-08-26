@@ -12,7 +12,7 @@ public:
     double y0;
     double vx0;
     double vy0;
-
+    ball(int id, double radius, double mass, double x0, double y0, double vx0, double vy0);
     ball(int id, double radius, double mass, double x0, double y0, double vx0, double vy0)
     : id(id),
     radius(radius), 
